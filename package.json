@@ -1,0 +1,27 @@
+{
+  "name": "thelibray",
+  "version": "1.0.0",
+  "description": "Google Books search and save library. using react.",
+  "main": "server.js",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "book": "^1.3.3",
+    "concurrently": "^5.3.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dgchromy/theLibray.git"
+  },
+  "author": "dgchromy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dgchromy/theLibray/issues"
+  },
+  "homepage": "https://github.com/dgchromy/theLibray#readme"
+}
