@@ -1,0 +1,22 @@
+.card-header {
+    float: right;
+    border-radius: yellow;
+    margin: 25px;
+    padding: 10px;
+}
+
+.card-body {
+    text-align: center;
+    align-content: center;
+    width: 165%;
+    border: 5px solid blue;
+    margin: 25px;
+    padding: 10px;
+    
+
+}
+
+.card-img {
+    float: left;
+    border: black 2px solid;
+}

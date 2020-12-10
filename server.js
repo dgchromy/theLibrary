@@ -1,11 +1,10 @@
 const express = require("express");
 const path = require("path");
-const PORT = process.env.PORT || 3001;
 const app = express();
 const mongoose = require("mongoose");
 const logger = require("morgan");
-
-//Require all of the models
+const PORT = process.env.PORT || 3001;
+//api routes 
 const db = require("./client/models/");
 
 
@@ -18,8 +17,6 @@ app.use(express.json());
 if (process.env.NODE_ENV === "production") {
   app.use(express.static("client/build"));
 }
-
-const MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/googlebooksearch";
 
 mongoose.connect(MONGODB_URI || "mongodb://localhost/googlebooksearch",
  { 
@@ -40,7 +37,7 @@ app.get("/api/books", (req,res) => {
 })
 
 app.post("/api/books/post",(req,res) =>{
-  console.log("the route is hit****")
+  console.log("posted")
   db.Book.create(req.body)
   .catch((err)=>{res.json(err)})
 })
@@ -51,10 +48,10 @@ app.delete("/api/books/:id",(req,res)=>{
   })
 })
 
-// Send every other request to the React app
+// Send requests to API 
 // If no API routes are hit, send the React app
 
-// Define any API routes before this runs
+// Define API routes before runs
 app.get("*", (req, res) => {
   res.sendFile(path.join(__dirname, "./client/build/index.html"));
 });

@@ -1,6 +1,6 @@
 import React, {Component} from "react";
 import $ from "jquery";
-import API from "../utils/google-books"
+import API from "../utils/GoogleBook"
 import { Input, FormBtn } from "../components/searchbox";
 import Results from "../components/results/results";
 
