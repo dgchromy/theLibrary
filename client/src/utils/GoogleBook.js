@@ -8,9 +8,9 @@ export default {
     return axios.post("/api/books/post", bookinfo);
     },
     getBooks: function(){
-      return axios.get("/api/books")
+      return axios.get("/api/book")
     },
     deleteBook: function(bookId){
-      return axios.delete("/api/books/" + bookId)
+      return axios.delete("/api/book/" + bookId)
     }
 };
