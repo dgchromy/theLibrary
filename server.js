@@ -18,7 +18,8 @@ if (process.env.NODE_ENV === "production") {
   app.use(express.static("client/build"));
 }
 
-mongoose.connect(MONGODB_URI || "mongodb://localhost/googlebooksearch",
+
+mongoose.connect( process.env.MONGODB_URI || "mongodb://localhost/googlebooksearch",
  { 
   useNewUrlParser: true,
   useUnifiedTopology: true,
