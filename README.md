@@ -47,6 +47,19 @@ Google Books search and save library. using react.
   ## Badges
  
   
+  ![Screen Shot 2020-12-11 at 2 57 59 PM](https://user-images.githubusercontent.com/65515339/101963816-8b33f900-3bc4-11eb-9485-2caa546ad37b.png)
   
+  
+  
+  
+![Screen Shot 2020-12-11 at 3 05 35 PM](https://user-images.githubusercontent.com/65515339/101963827-925b0700-3bc4-11eb-9beb-bb5702261b59.png)
+
+
+
+![Screen Shot 2020-12-11 at 10 01 03 AM](https://user-images.githubusercontent.com/65515339/101963850-a1da5000-3bc4-11eb-9826-8e89ded2d474.jpeg)
+
+
+
+![Screen Shot 2020-12-11 at 3 05 35 PM](https://user-images.githubusercontent.com/65515339/101963808-8111fa80-3bc4-11eb-8999-b2bc80bc16de.png)
   
  
