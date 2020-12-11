@@ -60,6 +60,5 @@ Google Books search and save library. using react.
 
 
 
-![Screen Shot 2020-12-11 at 3 05 35 PM](https://user-images.githubusercontent.com/65515339/101963808-8111fa80-3bc4-11eb-8999-b2bc80bc16de.png)
   
  
